@@ -3,11 +3,11 @@
 
 	"completions": [
 
-		// Array functions
 		{ "trigger": "instanceof", "contents": "instanceof" },
+		{ "trigger": "this", "contents": "\\$this->" },
+		{ "trigger": "keyvalue", "contents": "'${1:key}' => ${2:value}" },
 
 		// Magic methods
-
 		"__construct",
 		"__destruct",
 		"__call",
@@ -21,7 +21,20 @@
 		"__toString",
 		"__invoke",
 		"__set_state",
-		"__clone"
+		"__clone",
+
+		// Object Oriented keywords
+		"public",
+		"protected",
+		"private",
+		"static",
+		"void",
+
+		// returns
+		{ "trigger": "return", "contents": "return ${1:value};" },
+		{ "trigger": "ret1", "contents": "return true;" },
+		{ "trigger": "ret0", "contents": "return false;" }
+
 
 	]
 }
