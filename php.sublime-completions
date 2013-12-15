@@ -1,0 +1,10 @@
+{
+	"scope": "source.php",
+
+	"completions": [
+
+		// Array functions
+		{ "trigger": "instanceof", "contents": "instanceof" }
+
+	]
+}
