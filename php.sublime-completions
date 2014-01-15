@@ -3,9 +3,15 @@
 
 	"completions": [
 
-		{ "trigger": "instanceof", "contents": "instanceof" },
+		// Helper
 		{ "trigger": "this", "contents": "\\$this->" },
 		{ "trigger": "keyvalue", "contents": "'${1:key}' => ${2:value}" },
+
+		// Object Oriented
+		"instanceof",
+
+		// Keywords
+		"null",
 
 		// Magic methods
 		"__construct",
@@ -34,7 +40,6 @@
 		{ "trigger": "return", "contents": "return ${1:value};" },
 		{ "trigger": "ret1", "contents": "return true;" },
 		{ "trigger": "ret0", "contents": "return false;" }
-
 
 	]
 }
