@@ -6,6 +6,7 @@
 		// Helper
 		{ "trigger": "this", "contents": "\\$this->" },
 		{ "trigger": "keyvalue", "contents": "'${1:key}' => '${2:value}'" },
+		{ "trigger": "php", "contents": "<?php" },
 
 		// functions
 		{ "trigger": "compact", "contents": "compact('$1')" },
