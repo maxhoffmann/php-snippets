@@ -36,6 +36,10 @@
 		"static",
 		"void",
 
+		// Controls
+		{ "trigger": "if", "contents": "if ($1)\n{\n\t$0\n}"},
+		{ "trigger": "else", "contents": "else\n{\n\t$0\n}"},
+
 		// returns
 		{ "trigger": "return", "contents": "return ${1:value};" },
 		{ "trigger": "ret1", "contents": "return true;" },
