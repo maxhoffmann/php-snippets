@@ -1,7 +1,7 @@
 php-snippets
 ===================
 
-Sublime Text Snippets for PHP
+PHP completions for Sublime Text
 
 
 LICENSE
